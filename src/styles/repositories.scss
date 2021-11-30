@@ -3,6 +3,11 @@ section.repository-list {
 
     h1 {
         margin-bottom: 16px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 3rem;
+        font-weight: 100;
+        color: #747476;
     }
 
     ul {
@@ -11,6 +16,11 @@ section.repository-list {
         
         li {
             margin-bottom: 20px;
+            background: white;
+
+            border: 1px solid #D3E2E5;
+            border-radius: 5px;
+            padding: 10px;
             
             &:last-child {
                 margin-bottom: 0px;
