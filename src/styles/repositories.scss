@@ -23,15 +23,14 @@ section.repository-list {
             }
 
             strong {
-                text-align: center;
-                align-items: center;
-                padding-right: 10px;
+                text-transform: capitalize;
+                padding-right: 7px;
             }
 
             #share{
-                font-size: 12px;
+                font-size: 9px;
                 color: green;
-                padding: 3px 10px;
+                padding: 5px 5px;
                 border: 1px solid green;
                 border-radius: 10px;
                 font-weight: bold;
