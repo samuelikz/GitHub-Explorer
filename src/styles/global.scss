@@ -9,3 +9,25 @@ body {
     color: #121214;
     background: #EBF2F5;
 }
+
+@media screen and (max-device-width: 630px) {
+	section.repository-list {
+    
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+    
+            }
+        }
+}
+
+@media screen and (max-device-width: 550px) {
+	section.repository-list {
+    
+        ul {
+            display: grid;
+            grid-template-columns: 1fr;
+    
+            }
+        }
+}
